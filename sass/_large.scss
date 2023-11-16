@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+	.header {
+		grid-template-rows: auto repeat(2, 1fr);
+
+		&__text {
+			grid-row: 2/4;
+
+			p {
+				font-size: 1.8rem;
+			}
+		}
+
+		&__arrow {
+			display: block;
+			position: absolute;
+			bottom: 3em;
+			left: 50%;
+			border: 1px solid $white;
+			border-radius: 50%;
+		}
+	}
+}
+
+.nav {
+	grid-column: 2/-1;
+	grid-row: 2/-1;
+	padding: 1em;
+	display: block;
+
+	&__link {
+		color: $white;
+	}
+}
+
+.hamburger {
+	display: none;
+}
