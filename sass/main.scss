@@ -2,9 +2,8 @@
 @use "./mixins" as *;
 @use "./components" as *;
 
-@use "./small" as s;
-@use "./medium" as m;
-@use "./large" as l;
+@use "./small" as *;
+@use "./medium" as *;
 
 *,
 *::before,
@@ -146,3 +145,5 @@ h1.title {
 		}
 	}
 }
+
+@import "./large";

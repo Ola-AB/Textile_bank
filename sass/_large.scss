@@ -10,6 +10,10 @@
 			}
 		}
 
+		&__img {
+			background-image: url("../img/textiles_1920.jpg");
+		}
+
 		&__arrow {
 			display: block;
 			position: absolute;
@@ -17,21 +21,38 @@
 			left: 50%;
 			border: 1px solid $white;
 			border-radius: 50%;
+
+			&::before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				content: "";
+				width: 100%;
+				height: 100%;
+				border: 1px solid $white;
+				border-radius: 50%;
+				animation: pulse 2s infinite;
+			}
+		}
+		&__arrow-icon {
+			width: 50px;
 		}
 	}
-}
 
-.nav {
-	grid-column: 2/-1;
-	grid-row: 2/-1;
-	padding: 1em;
-	display: block;
+	.nav {
+		grid-column: 1/-1;
+		grid-row: 1/2;
+		padding: 1em;
+		display: block;
+		transform: translateX(0);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
-	&__link {
-		color: $white;
+		&__link {
+			color: $white;
+		}
 	}
-}
 
-.hamburger {
-	display: none;
+	.hamburger {
+		display: none;
+	}
 }
