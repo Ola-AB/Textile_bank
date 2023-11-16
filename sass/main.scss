@@ -2,9 +2,6 @@
 @use "./mixins" as *;
 @use "./components" as *;
 
-@use "./small" as *;
-@use "./medium" as *;
-
 *,
 *::before,
 *::after {
@@ -18,7 +15,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: "Open sans", sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-size: 1.6rem;
 	background-color: $dark;
 	color: $white;
@@ -139,11 +136,7 @@ h1.title {
 			border: 1px solid $gold;
 			opacity: 0;
 		}
-
-		&:hover::before {
-			animation: pulse 1s;
-		}
 	}
 }
 
-@import "./large";
+@use "./large" as *;
