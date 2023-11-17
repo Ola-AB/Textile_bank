@@ -34,31 +34,34 @@
 	}
 
 	.nav {
-		position: absolute;
-		top: 40rem;
-		grid-column: 1/-1;
-		grid-row: 1/2;
+		bottom: auto;
+		background-color: $darker;
 		padding: 1em;
 		display: block;
-		// position: fixed;
+		position: fixed;
 		transform: translateX(0);
-	
-
 		&__link {
 			color: $white;
+			font-size: 1em;
 		}
 	}
 
 	.hamburger {
 		display: none;
 	}
-}
 
-@media (min-width: 1200px) {
-	.header {
-		&__text {
-			p {
-				font-size: 2.2rem;
+	.footer {
+		&__bottom-text {
+			font-size: 0.8em;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.header {
+			&__text {
+				p {
+					font-size: 2.2rem;
+				}
 			}
 		}
 	}

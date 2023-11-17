@@ -1,6 +1,6 @@
 @use "./colors" as *;
-@use "./mixins" as *;
-@use "./components" as *;
+@use "./animation" as *;
+@use "./large" as *;
 
 *,
 *::before,
@@ -138,5 +138,3 @@ h1.title {
 		}
 	}
 }
-
-@import "./large";
