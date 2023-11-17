@@ -4,7 +4,7 @@
 	}
 
 	.header {
-		grid-template-rows: auto repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 
 		&__text {
 			grid-row: 2/4;
@@ -34,11 +34,15 @@
 	}
 
 	.nav {
+		position: absolute;
+		top: 40rem;
 		grid-column: 1/-1;
 		grid-row: 1/2;
 		padding: 1em;
 		display: block;
+		// position: fixed;
 		transform: translateX(0);
+	
 
 		&__link {
 			color: $white;
@@ -58,5 +62,4 @@
 			}
 		}
 	}
-	
 }
