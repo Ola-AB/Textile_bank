@@ -1,11 +1,11 @@
-const navMobile = document.querySelector(".nav");
+const navMobile = document.querySelector(".nav-mobile");
 const navBtn = document.querySelector(".hamburger");
 const footerYear = document.querySelector(".footer__year");
-const allNavItems = document.querySelectorAll(".nav__link");
+const allNavItems = document.querySelectorAll(".nav__dropdown-link");
 
 const handleNav = () => {
 	navBtn.classList.toggle("is-active");
-	navMobile.classList.toggle("nav--active");
+	navMobile.classList.toggle("nav-mobile--active");
 
 	allNavItems.forEach((item) => {
 		item.addEventListener("click", () => {
