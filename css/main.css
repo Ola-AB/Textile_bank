@@ -20,18 +20,20 @@
 }
 @media (min-width: 768px) {
   .header {
+    display: flex;
+    grid-template-columns: none;
     grid-template-rows: repeat(2, 1fr);
   }
   .header__text {
-    grid-row: 2/4;
-    grid-column: 1/2;
+    grid-row: 2/4 !important;
+    grid-column: 1/2 !important;
   }
   .header__text p {
     font-size: 2.2rem;
   }
   .header__img {
-    grid-row: 1/4;
-    grid-column: 2/3;
+    grid-row: 1/4 !important;
+    grid-column: 2/3 !important;
     background-image: url("../img/textiles_1920.jpg");
   }
   .header__arrow {
@@ -62,7 +64,7 @@
     display: none;
   }
   .nav-desktop {
-    display: block;
+    display: block !important;
     background-color: #232323;
   }
   .nav-desktop__dropdown {
@@ -74,7 +76,7 @@
     margin: 0.1em;
     padding: 0.5em;
     opacity: 0;
-    background-color: #191919;
+    background-color: #232323;
     color: #fff;
     font-size: 2rem;
     text-transform: uppercase;
@@ -91,8 +93,13 @@
     display: block;
     list-style: none;
     font-size: 2.5rem;
+    margin: 1em;
     text-transform: uppercase;
     color: #d6c78e;
+    cursor: pointer;
+  }
+  .menu-item:hover {
+    background-color: #444242;
   }
   .menu-item:hover .nav__dropdown-link {
     display: block;
@@ -123,6 +130,11 @@
 @media (min-width: 992px) {
   h1.title {
     font-size: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header__text p {
+    font-size: 2.2rem;
   }
 }
 *,
