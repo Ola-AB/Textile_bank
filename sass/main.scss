@@ -224,10 +224,36 @@ h1.title {
 &__bg-icon {
 	display: none;
 }
-
 }
 
+//points:
+//bank:
+//petition:
 
+.points, .bank, .petition {
+	padding: 6em 2em;
+	background-color: $darker;
+
+	&__box {
+		margin: 1em 0;
+		padding: 2em 1em;
+		text-align: center;
+		border-radius: 8px;
+		background-color: $dark;
+	}
+	&__item-icon {
+		width: 50px;
+	}
+	&__item-name {
+		h3 {
+			margin-top: 0;
+			margin-bottom: 1.5em;
+			font-size: 2.8rem;
+		}
+		
+	}
+	
+}
 
 @import "./large";
 @import "./small";
