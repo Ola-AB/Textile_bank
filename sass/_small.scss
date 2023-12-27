@@ -34,20 +34,20 @@
 			}
 			&--two {
 				bottom: 10%;
-                left: 10%;
+				left: -5%;
 				width: 30%;
 				animation: rotate-left 140s infinite linear;
 			}
 			&--three {
 				bottom: 29%;
-                left: 10%;
+				left: 10%;
 				width: 50%;
 				animation: rotate-left 160s infinite linear;
 			}
 
-            &--four {
+			&--four {
 				top: 31%;
-                left: -10%;
+				left: -10%;
 				width: 15%;
 				animation: rotate-right 140s infinite linear;
 			}
