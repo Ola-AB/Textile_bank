@@ -1,5 +1,5 @@
 **O projekcie:**
-Celem projektu było stworzenie responsywnej strony internetowej na potrzeby projektu 369SortWaste – opartego na nowatorskiej metodzie sortowania odpadów, opisanego przez formułę matematyczną.
+Celem projektu było stworzenie responsywnej strony internetowej na potrzeby projektu 369SortWaste – opartego na nowatorskiej metodzie sortowania odpadów, opisanej przez formułę matematyczną.
 Więcej o projekcie 369SortWaste:
 [](https://www.369sortwaste.pl/start)
 
