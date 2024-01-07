@@ -17,6 +17,7 @@ Więcej o projekcie 369SortWaste:
 **Zastosowane technologie:** 
 
 ![test](https://github.com/Ola-AB/Photo_site/assets/142878084/3c433e16-3843-46ce-9100-25bf53865cc5)
+
 **Autor:**
 LinkedIn - [Olga Burkiewicz](https://www.linkedin.com/in/olga-burkiewicz-990058a4/)
 
