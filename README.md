@@ -1,7 +1,7 @@
 **O projekcie:**
 Celem projektu było stworzenie responsywnej strony internetowej na potrzeby projektu 369SortWaste – opartego na nowatorskiej metodzie sortowania odpadów, opisanej przez formułę matematyczną.
 Więcej o projekcie 369SortWaste:
-[](https://www.369sortwaste.pl/start)
+[(https://www.369sortwaste.pl/start)]
 
 **Cechy:**
 1.	Zastosowano zasadę Mobile-first.
