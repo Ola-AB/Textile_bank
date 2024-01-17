@@ -322,5 +322,36 @@ h1.title {
 	}
 }
 
+// footer
+
+.footer p {
+	display: inline;
+}
+
+.footer {
+	&__line {
+		// position: relative;
+		border-right: 2px solid $white;
+		bottom: 0;
+		height: 40px;
+		width: 50%;
+		font-size: 1rem;
+		text-align: center;
+	}
+	&__bottom-text {
+		width: 48%;
+		right: 0;
+		font-size: 1rem;
+		margin-left: 2px;
+		// background-color: red;
+		text-align: center;
+	}
+	&__bottom-text a {
+		cursor: pointer;
+		text-decoration: none;
+		color: $white;
+	}
+}
+
 @import "./large";
 @import "./small";
